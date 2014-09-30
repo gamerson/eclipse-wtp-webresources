@@ -77,7 +77,6 @@
                      exactMatch="false"
                      id="org.eclipse.jst.jsp.core.jspsource"></contentType>
                <fileext caseSensitive="false" ext="jsp"/>
-               <fileext caseSensitive="false" ext="jspf"/>
                <fileext caseSensitive="false" ext="jsv"/>
                <fileext caseSensitive="false" ext="jtpl"/>
                <fileext caseSensitive="false" ext="jspx"/>

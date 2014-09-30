@@ -40,11 +40,11 @@ public class WebResourcesCorePreferenceInitializer extends
 	 */
 	private void initializeValidationPreferences(IEclipsePreferences node) {
 		node.putInt(WebResourcesCorePreferenceNames.FILE_JS_UNKNOWN,
-				ValidationMessage.ERROR);
+				ValidationMessage.WARNING);
 		node.putInt(WebResourcesCorePreferenceNames.FILE_CSS_UNKNOWN,
-				ValidationMessage.ERROR);
+				ValidationMessage.WARNING);
 		node.putInt(WebResourcesCorePreferenceNames.FILE_IMG_UNKNOWN,
-				ValidationMessage.ERROR);
+				ValidationMessage.WARNING);
 
 		node.putInt(WebResourcesCorePreferenceNames.CSS_CLASS_UNKWOWN,
 				ValidationMessage.WARNING);
